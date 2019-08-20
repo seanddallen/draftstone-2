@@ -16,6 +16,10 @@ export default {
   components: {
     HelloWorld,
   },
+  props: {
+    name: String,
+    age: Number
+  }
   data () {
     return {
       newTodo: '',
