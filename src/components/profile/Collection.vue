@@ -1,24 +1,51 @@
-Vue.component('Collection', {
-    props: [],
-    data: () => {
-        return {
-            
-        }
-    }
-    template: ''
-})
-
-
+////////////////////////// TEMPLATE ////////////////////////// 
 <template>
-
+  <div>
+    Collection
+  </div>
 </template>
 
 
-<script>
+////////////////////////// SCRIPT ////////////////////////// 
+
+<script lang="ts">
+
+// import HelloWorld from './components/HelloWorld'
+
+export default {
+  name: 'Collection',
+  components: {
+    // HelloWorld,
+  },
+  props: {
+    // name: String,
+    // age: Number
+  }
+  data () {
+    return {
+      // newTodo: '',
+      // todos: []
+    }
+  },
+  methods: {
+    // removeTodo(index) {
+    //   this.todos.splice(index, 1)
+    // },
+  }
+  computed: {
+    // remaining() {
+    //   return this.todos.filter(todo => !todo.completed).length
+    // },
+  }
+}
 
 </script>
 
 
-<style>
+////////////////////////// STYLE ////////////////////////// 
 
+<style scoped lang="scss">
+// h3 {
+//   margin: 40px 0 0;
+// }
 </style>

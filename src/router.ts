@@ -11,6 +11,7 @@ import DraftPage from "./components/draft/DraftPage";
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',   //uses BrowserRouter
   routes: [
     {
       path: "/",
